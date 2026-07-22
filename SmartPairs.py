@@ -38,9 +38,9 @@ class SmartPairs:
             
             if user_input == self.SECRET_PASSWORD:
                 self.active = True
-                messagebox.showinfo("AmpXD Override", "Access Granted! Mode is now ENABLED [✓]")
+                messagebox.showinfo("AmpXD Override", " Heyyy access granted! Mode is now ENABLED [✓]. Code works.")
             else:
-                messagebox.showerror("Access Denied", "Incorrect password. Mode remains disabled.")
+                messagebox.showerror("Access Denied", "Incorrect password. Wrong user. Please run as Ghost. Mode remains disabled.")
         else:
             self.active = False
             messagebox.showinfo("AmpXD Override", "AmpXD Mode is now DISABLED [✗]")
