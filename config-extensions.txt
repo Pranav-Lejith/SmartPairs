@@ -63,3 +63,5 @@ z-out= <Control-Shift-KeyRelease-Delete>
 
 [SmartPairs]
 enable=1
+[SmartPairs_cfgBindings]
+toggle-ampxd-mode=
